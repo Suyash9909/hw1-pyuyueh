@@ -63,6 +63,8 @@ def list_1D():
     l=[2,3,4,1,5,6,9,10,15,12,13,-2,-6,0,0]
 
     # Inplace sort list l (use .sort() ).
+    l.sort()
+    
 
 
     # Get the 4th to 10th item in sorted list l and assign them to a new list new_l.
@@ -113,6 +115,8 @@ def dictionary():
     f = fruit_dict["fruit"]
 
     # Increase the value that key "quantity" map to by 1.
+    
+    fruit_dict["quantity"]+=1
 
 
     return fruit_dict, f
